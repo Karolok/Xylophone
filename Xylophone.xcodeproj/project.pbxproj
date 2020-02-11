@@ -7,21 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		342AA20723F359060091EA50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 342AA20623F359050091EA50 /* Assets.xcassets */; };
+		342AA21223F359460091EA50 /* A.wav in Resources */ = {isa = PBXBuildFile; fileRef = 342AA20B23F359460091EA50 /* A.wav */; };
+		342AA21323F359460091EA50 /* C.wav in Resources */ = {isa = PBXBuildFile; fileRef = 342AA20C23F359460091EA50 /* C.wav */; };
+		342AA21423F359460091EA50 /* B.wav in Resources */ = {isa = PBXBuildFile; fileRef = 342AA20D23F359460091EA50 /* B.wav */; };
+		342AA21523F359460091EA50 /* F.wav in Resources */ = {isa = PBXBuildFile; fileRef = 342AA20E23F359460091EA50 /* F.wav */; };
+		342AA21623F359460091EA50 /* G.wav in Resources */ = {isa = PBXBuildFile; fileRef = 342AA20F23F359460091EA50 /* G.wav */; };
+		342AA21723F359460091EA50 /* E.wav in Resources */ = {isa = PBXBuildFile; fileRef = 342AA21023F359460091EA50 /* E.wav */; };
+		342AA21823F359460091EA50 /* D.wav in Resources */ = {isa = PBXBuildFile; fileRef = 342AA21123F359460091EA50 /* D.wav */; };
 		34B54DD623F1C62E00B1043E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B54DD523F1C62E00B1043E /* AppDelegate.swift */; };
 		34B54DD823F1C62E00B1043E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B54DD723F1C62E00B1043E /* SceneDelegate.swift */; };
 		34B54DDA23F1C62E00B1043E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B54DD923F1C62E00B1043E /* ViewController.swift */; };
 		34B54DDD23F1C62E00B1043E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34B54DDB23F1C62E00B1043E /* Main.storyboard */; };
-		34B54DDF23F1C63400B1043E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34B54DDE23F1C63400B1043E /* Assets.xcassets */; };
 		34B54DE223F1C63400B1043E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34B54DE023F1C63400B1043E /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		34D1A95F23F1FEA200964F1A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		34B54DD223F1C62E00B1043E /* Xylophone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Xylophone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		342AA20623F359050091EA50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		342AA20B23F359460091EA50 /* A.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = A.wav; sourceTree = "<group>"; };
+		342AA20C23F359460091EA50 /* C.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = C.wav; sourceTree = "<group>"; };
+		342AA20D23F359460091EA50 /* B.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = B.wav; sourceTree = "<group>"; };
+		342AA20E23F359460091EA50 /* F.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = F.wav; sourceTree = "<group>"; };
+		342AA20F23F359460091EA50 /* G.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = G.wav; sourceTree = "<group>"; };
+		342AA21023F359460091EA50 /* E.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = E.wav; sourceTree = "<group>"; };
+		342AA21123F359460091EA50 /* D.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = D.wav; sourceTree = "<group>"; };
+		34B54DD223F1C62E00B1043E /* Xylophone.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Xylophone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34B54DD523F1C62E00B1043E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		34B54DD723F1C62E00B1043E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		34B54DD923F1C62E00B1043E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		34B54DDC23F1C62E00B1043E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		34B54DDE23F1C63400B1043E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		34B54DE123F1C63400B1043E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		34B54DE323F1C63400B1043E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -37,6 +63,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		342AA20A23F359460091EA50 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				342AA20B23F359460091EA50 /* A.wav */,
+				342AA20C23F359460091EA50 /* C.wav */,
+				342AA20D23F359460091EA50 /* B.wav */,
+				342AA20E23F359460091EA50 /* F.wav */,
+				342AA20F23F359460091EA50 /* G.wav */,
+				342AA21023F359460091EA50 /* E.wav */,
+				342AA21123F359460091EA50 /* D.wav */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
 		34B54DC923F1C62E00B1043E = {
 			isa = PBXGroup;
 			children = (
@@ -56,11 +96,12 @@
 		34B54DD423F1C62E00B1043E /* Xylophone */ = {
 			isa = PBXGroup;
 			children = (
+				342AA20623F359050091EA50 /* Assets.xcassets */,
+				342AA20A23F359460091EA50 /* Sounds */,
 				34B54DD523F1C62E00B1043E /* AppDelegate.swift */,
 				34B54DD723F1C62E00B1043E /* SceneDelegate.swift */,
 				34B54DD923F1C62E00B1043E /* ViewController.swift */,
 				34B54DDB23F1C62E00B1043E /* Main.storyboard */,
-				34B54DDE23F1C63400B1043E /* Assets.xcassets */,
 				34B54DE023F1C63400B1043E /* LaunchScreen.storyboard */,
 				34B54DE323F1C63400B1043E /* Info.plist */,
 			);
@@ -77,6 +118,7 @@
 				34B54DCE23F1C62E00B1043E /* Sources */,
 				34B54DCF23F1C62E00B1043E /* Frameworks */,
 				34B54DD023F1C62E00B1043E /* Resources */,
+				34D1A95F23F1FEA200964F1A /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -125,9 +167,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				342AA21623F359460091EA50 /* G.wav in Resources */,
 				34B54DE223F1C63400B1043E /* LaunchScreen.storyboard in Resources */,
-				34B54DDF23F1C63400B1043E /* Assets.xcassets in Resources */,
+				342AA21523F359460091EA50 /* F.wav in Resources */,
+				342AA20723F359060091EA50 /* Assets.xcassets in Resources */,
+				342AA21223F359460091EA50 /* A.wav in Resources */,
+				342AA21423F359460091EA50 /* B.wav in Resources */,
+				342AA21723F359460091EA50 /* E.wav in Resources */,
+				342AA21823F359460091EA50 /* D.wav in Resources */,
 				34B54DDD23F1C62E00B1043E /* Main.storyboard in Resources */,
+				342AA21323F359460091EA50 /* C.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,6 +249,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -260,6 +310,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -287,6 +338,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S933X2DZ5C;
 				INFOPLIST_FILE = Xylophone/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,6 +357,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S933X2DZ5C;
 				INFOPLIST_FILE = Xylophone/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
